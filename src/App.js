@@ -29,6 +29,7 @@ const mockData = [
     id: 4,
     title:" Sherlock Holmes",
     deskription:"i am Sherlock Holmes", 
+    image: STRONG_IMG,
    },
 ];
 // когда мы обернем все в грид контейнер она будет красиво в строчку
