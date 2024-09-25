@@ -13,6 +13,7 @@ export default function MediaCard({
   deskription, 
   image=MC,
   status,
+  time,
   makeClik}) {
   return (
   <Card sx={{ 
@@ -35,7 +36,9 @@ export default function MediaCard({
   margin:"5px"
   }}>ended</span>
   }
+  {time}
   </Typography>
+  
   <Typography variant="body2" color="text.secondary">
   {deskription}
   <button onClick={()=>makeClik(id)}>click me</button>
