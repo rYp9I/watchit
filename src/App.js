@@ -3,7 +3,7 @@ import './App.css';
 import  Navigation  from './components/navigetion/navigation';
 import MediaCard from './components/MediaCard/MediaCard';
 import { Grid } from '@mui/material';
-import { DEFOLD_IMG, STRONG_IMG } from './constans/constans';
+import { DEFOLD_IMG, Logo, STRONG_IMG } from './constans/constans';
 import { Padding } from '@mui/icons-material';
 import { useState } from 'react';
 const mockData = [
@@ -29,7 +29,6 @@ const mockData = [
     id: 4,
     title:" Sherlock Holmes",
     deskription:"i am Sherlock Holmes", 
-    image: STRONG_IMG,
    },
 ];
 // когда мы обернем все в грид контейнер она будет красиво в строчку
