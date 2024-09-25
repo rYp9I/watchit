@@ -3,7 +3,7 @@ import './App.css';
 import  Navigation  from './components/navigetion/navigation';
 import MediaCard from './components/MediaCard/MediaCard';
 import { Grid } from '@mui/material';
-import { DEFOLD_IMG, STRONG_IMG } from './constans/constans';
+import { DEFOLD_IMG, Logo, STRONG_IMG } from './constans/constans';
 import { Padding } from '@mui/icons-material';
 import { useState } from 'react';
 const mockData = [
