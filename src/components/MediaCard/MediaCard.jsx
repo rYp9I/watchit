@@ -5,7 +5,7 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
 import { MC } from '../../constans/constans';
-
+import "./Media.css";
 
 export default function MediaCard({
   id,
@@ -17,7 +17,9 @@ export default function MediaCard({
   makeClik}) {
   return (
   <Card sx={{ 
-  maxWidth: 345,
+  Width: 345,
+  height: 350,
+  backgroundColor:"#d8cece",
   "& :hover": {backgroundColor:"red"} }}>
   <CardActionArea>
   <CardMedia
@@ -36,11 +38,17 @@ export default function MediaCard({
   margin:"5px"
   }}>ended</span>
   }
-  {time}
+  {time != null && 
+  <div style={{
+    color:"green",
+    margin:"5px"
+  }}
+  >{time}</div>}
   </Typography>
   
   <Typography variant="body2" color="text.secondary">
-  {deskription}
+  {deskription } </Typography>
+  <Typography>
   <button onClick={()=>makeClik(id)}>click me</button>
   </Typography>
   </CardContent>

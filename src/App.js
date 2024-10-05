@@ -3,21 +3,23 @@ import './App.css';
 import  Navigation  from './components/navigetion/navigation';
 import MediaCard from './components/MediaCard/MediaCard';
 import { Grid } from '@mui/material';
-import { DEFOLD_IMG, Logo, STRONG_IMG } from './constans/constans';
+import { DEFOLD_IMG, Logo, STRONG_IMG} from './constans/constans';
 import { Padding } from '@mui/icons-material';
 import { useState } from 'react';
+import AppActor from './components/ActorCard/AppActor';
+
 const mockData = [
   { 
    id: 1,
    title:"iron Man",
-   deskription:"zaz chel",
+   deskription:"zaz chel  ",
    image: DEFOLD_IMG,
    status:"ended",
    time: "55 min"
   },
   { id: 2,
     title:" strong",
-    deskription:" strong strong ",
+    deskription:" strong strong  ",
     image: STRONG_IMG,
     status:"ended",
     time: "100 min"
@@ -25,16 +27,17 @@ const mockData = [
    {
     id: 3,
     title:" barbie",
-    deskription:" I am Barbie", 
+    deskription:" I am Barbie  ", 
     time: "105 min"
    },
    {
     id: 4,
     title:" Sherlock Holmes",
-    deskription:"i am Sherlock Holmes", 
+    deskription:"i am Sherlock Holmes  ", 
     time: "45 min"
-   },
+   },   
 ];
+
 // когда мы обернем все в грид контейнер она будет красиво в строчку
 function App() {
   const [selectFilm, setselectFilm]=useState(null);
@@ -59,9 +62,10 @@ function App() {
              />
             </Grid>
            ))} 
-        </Grid>
+        </Grid>  
+   <AppActor/>     
     </div>
   );
 }
-
 export default App;
+
