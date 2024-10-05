@@ -1,0 +1,27 @@
+.footer{
+    background-color: #F9F3EE;
+    font-family: monospace;
+    text-align:center;
+}
+.follow{
+    text-align:left;
+    font-family: cursive;
+}
+.images1{
+    width: 230px;
+    height: 75px;
+}
+.images2{
+    width: 200px;
+    height: 50px;
+}
+.box{
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+.div-child {
+    display: table-cell;
+    vertical-align: top;
+    padding: 25px;
+  }
