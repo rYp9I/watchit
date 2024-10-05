@@ -13,7 +13,7 @@ const multgirl=[
      },
      {
       id: 6,
-      image: "https://scontent.fprg3-1.fna.fbcdn.net/v/t39.30808-6/334090299_759292342640509_9188494022709232561_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=bGDdRleziOsQ7kNvgHLFSy0&_nc_ht=scontent.fprg3-1.fna&_nc_gid=AaNa46ltu6Ak6szML-IHJKk&oh=00_AYDsgiUtmhIbpwlhl1yFWjkTZGXf5F-XVD9yFvlMw1GlIQ&oe=66FB438C",
+      image: "https://scontent.fprg3-1.fna.fbcdn.net/v/t39.30808-6/334090299_759292342640509_9188494022709232561_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=E9u8lhjAH8kQ7kNvgFHb1hH&_nc_ht=scontent.fprg3-1.fna&_nc_gid=Abig2BKLfqYVs4-qMpi6YtE&oh=00_AYAErmI56U-JvJU27YgRWkpYKZq1W1t5tium2e67bbEwBg&oe=6707210C",
       name:" kotik",
       deskription:"i am valery krasny kitty ", 
       time: "1 min"

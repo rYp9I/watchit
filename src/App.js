@@ -7,7 +7,7 @@ import { DEFOLD_IMG, Logo, STRONG_IMG} from './constans/constans';
 import { Padding } from '@mui/icons-material';
 import { useState } from 'react';
 import AppActor from './components/ActorCard/AppActor';
-
+import Footer from './components/footer/footer';
 const mockData = [
   { 
    id: 1,
@@ -63,7 +63,8 @@ function App() {
             </Grid>
            ))} 
         </Grid>  
-   <AppActor/>     
+   <AppActor/>   
+   <Footer/> 
     </div>
   );
 }
