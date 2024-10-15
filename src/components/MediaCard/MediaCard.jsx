@@ -10,10 +10,9 @@ import "./Media.css";
 export default function MediaCard({
   id,
   title, 
-  deskription, 
   image=MC,
-  status,
-  time,
+  rating,
+  premiered,
   makeClik}) {
   return (
   <Card sx={{ 
@@ -31,23 +30,21 @@ export default function MediaCard({
   <CardContent>
   <Typography gutterBottom variant="h5" component="div">
   {title}
-  {status ==='ended' &&
+  {rating.average
+ != null && 
   <span style={{
   border:"1px solid red", 
   color: "red", 
   margin:"5px"
-  }}>ended</span>
+  }}>{rating.average}</span>
   }
-  {time != null && 
+  {premiered != null && 
   <div style={{
     color:"green",
     margin:"5px"
   }}
-  >{time}</div>}
+  >{premiered}</div>}
   </Typography>
-  
-  <Typography variant="body2" color="text.secondary">
-  {deskription } </Typography>
   <Typography>
   <button onClick={()=>makeClik(id)}>click me</button>
   </Typography>
