@@ -13,7 +13,8 @@ import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 import logo from '../../image/logo.png';
-const pages = ['home', 'tv shows', 'about us'];
+
+const pages = ['Home', 'Films', 'About us'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 function Navigation() {
